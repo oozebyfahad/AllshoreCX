@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<!-- saved from url=(0193)file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AllshoreCX — U.S. Medical Billing &amp; Accounting Outsourcing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link href="./website_files/css2" rel="stylesheet">
+<style>
+  :root{
+    --ink:#152238;
+    --ink-soft:#2b3a54;
+    --paper:#F2F4F0;
+    --paper-raised:#FFFFFF;
+    --line:#C7CDC2;
+    --line-soft:#DDE1D8;
+    --green:#1F6F52;
+    --green-dim:#E7EFE8;
+    --blue:#2C5B8A;
+    --blue-dim:#E7EEF3;
+    --brick:#A8402E;
+    --mono-text:#5B6660;
+    --radius:2px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans', sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.display{
+    font-family:'Zilla Slab', serif;
+    font-weight:600;
+    letter-spacing:-0.01em;
+    margin:0;
+  }
+  .mono{font-family:'IBM Plex Mono', monospace;}
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;display:block;}
+  button{font-family:inherit;cursor:pointer;}
+
+  /* ---------- nav ---------- */
+  header.site-nav{
+    position:fixed;top:0;left:0;right:0;z-index:100;
+    background:rgba(242,244,240,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav-inner{
+    max-width:1180px;margin:0 auto;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:16px 28px;
+  }
+  .wordmark{
+    font-family:'Zilla Slab',serif;font-weight:700;font-size:1.28rem;
+    letter-spacing:-0.01em;display:flex;align-items:baseline;gap:8px;
+    white-space:nowrap;
+  }
+  .wordmark .tick{
+    color:var(--green);font-family:'IBM Plex Mono',monospace;font-size:0.7rem;
+    border:1px solid var(--green);padding:1px 5px;border-radius:2px;
+    letter-spacing:0.03em;
+  }
+  nav.links{display:flex;gap:26px;align-items:center;}
+  nav.links a{
+    font-size:0.9rem;font-weight:500;color:var(--ink-soft);
+    padding:6px 2px;border-bottom:2px solid transparent;
+    transition:color .15s, border-color .15s;
+    white-space:nowrap;
+  }
+  nav.links a:hover, nav.links a.active{color:var(--ink);border-bottom-color:var(--green);}
+  .nav-cta{
+    background:var(--ink);color:var(--paper);
+    font-size:0.83rem;font-weight:600;
+    padding:10px 16px;border-radius:2px;border:1px solid var(--ink);
+    font-family:'IBM Plex Mono',monospace;letter-spacing:0.02em;
+    transition:background .15s,color .15s;
+    white-space:nowrap;
+  }
+  .nav-cta:hover{background:var(--green);border-color:var(--green);color:#fff;}
+  .nav-toggle{display:none;background:none;border:none;font-size:1.6rem;color:var(--ink);}
+
+  main{padding-top:74px;}
+  .page{display:none;}
+  .page.active{display:block;animation:fadein .35s ease;}
+  @keyframes fadein{from{opacity:0;transform:translateY(6px);}to{opacity:1;transform:translateY(0);}}
+
+  .wrap{max-width:1180px;margin:0 auto;padding:0 28px;}
+
+  /* ---------- field label motif ---------- */
+  .field-label{
+    display:flex;align-items:center;gap:12px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:0.72rem;letter-spacing:0.12em;text-transform:uppercase;
+    color:var(--mono-text);margin-bottom:18px;
+  }
+  .field-label .num{
+    color:var(--green);font-weight:600;border:1px solid var(--green);
+    padding:1px 6px;border-radius:2px;
+  }
+  .field-label.blue .num{color:var(--blue);border-color:var(--blue);}
+  .field-label::after{content:"";flex:1;height:1px;background:var(--line);}
+
+  /* ---------- hero ---------- */
+  .hero{padding:78px 0 90px;position:relative;border-bottom:1px solid var(--line);}
+  .hero-grid{display:grid;grid-template-columns:1.15fr 0.85fr;gap:56px;align-items:center;}
+  .hero h1{font-size:clamp(2.2rem,4.2vw,3.4rem);line-height:1.06;color:var(--ink);}
+  .hero .sub{margin-top:22px;font-size:1.06rem;line-height:1.6;color:var(--ink-soft);max-width:540px;}
+  .hero-ctas{display:flex;gap:14px;margin-top:34px;flex-wrap:wrap;}
+  .btn-primary{
+    background:var(--green);color:#fff;border:1px solid var(--green);
+    padding:14px 24px;font-weight:600;font-size:0.95rem;border-radius:2px;
+    transition:background .15s;display:inline-block;
+  }
+  .btn-primary:hover{background:#175941;}
+  .btn-primary.blue{background:var(--blue);border-color:var(--blue);}
+  .btn-primary.blue:hover{background:#204671;}
+  .btn-secondary{
+    background:transparent;color:var(--ink);border:1px solid var(--ink);
+    padding:14px 24px;font-weight:600;font-size:0.95rem;border-radius:2px;
+    transition:all .15s;display:inline-block;
+  }
+  .btn-secondary:hover{background:var(--ink);color:var(--paper);}
+
+  /* ---------- ticket signature w/ tabs ---------- */
+  .ticket-tabs{display:flex;gap:8px;margin-bottom:14px;}
+  .ticket-tab{
+    font-family:'IBM Plex Mono',monospace;font-size:0.72rem;letter-spacing:0.06em;text-transform:uppercase;
+    padding:9px 14px;border:1px solid var(--line);border-radius:2px;background:var(--paper-raised);
+    color:var(--mono-text);transition:all .15s;
+  }
+  .ticket-tab.active{background:var(--ink);color:var(--paper);border-color:var(--ink);}
+  .ticket{
+    background:var(--paper-raised);border:1px solid var(--line);border-radius:3px;
+    box-shadow:0 18px 40px -18px rgba(21,34,56,0.25);position:relative;overflow:hidden;
+  }
+  .ticket-perf{
+    height:14px;width:100%;
+    background-image: radial-gradient(circle at 10px 7px, var(--paper) 5px, transparent 5.5px);
+    background-size:20px 14px;background-repeat:repeat-x;
+  }
+  .ticket-top{display:flex;justify-content:space-between;align-items:flex-start;padding:22px 26px 14px;border-bottom:1px dashed var(--line);}
+  .ticket-top .t-label{font-family:'IBM Plex Mono',monospace;font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--mono-text);}
+  .stamp{
+    font-family:'IBM Plex Mono',monospace;font-size:0.72rem;font-weight:600;
+    color:var(--green);border:2px solid var(--green);border-radius:3px;
+    padding:4px 9px;transform:rotate(-6deg);letter-spacing:0.06em;white-space:nowrap;
+  }
+  .stamp.blue{color:var(--blue);border-color:var(--blue);}
+  .ticket-body{padding:18px 26px 24px;}
+  .ticket-panel{display:none;}
+  .ticket-panel.active{display:block;}
+  .tline{display:flex;justify-content:space-between;align-items:baseline;padding:11px 0;border-bottom:1px solid var(--line-soft);font-size:0.9rem;}
+  .tline:last-child{border-bottom:none;}
+  .tline .k{color:var(--mono-text);}
+  .tline .v{font-family:'IBM Plex Mono',monospace;font-weight:600;color:var(--ink);}
+  .tline .v.green{color:var(--green);}
+  .tline .v.blue{color:var(--blue);}
+
+  /* ---------- stat strip ---------- */
+  .stat-strip{border-bottom:1px solid var(--line);background:var(--paper-raised);}
+  .stat-strip .wrap{display:grid;grid-template-columns:repeat(3,1fr);padding:36px 28px;}
+  .stat{padding:0 24px;border-left:1px solid var(--line-soft);}
+  .stat:first-child{border-left:none;padding-left:0;}
+  .stat .num{font-family:'IBM Plex Mono',monospace;font-size:2.1rem;font-weight:600;color:var(--green);}
+  .stat .desc{margin-top:6px;font-size:0.88rem;color:var(--ink-soft);line-height:1.4;}
+
+  /* ---------- generic section ---------- */
+  section.block{padding:88px 0;border-bottom:1px solid var(--line);}
+  section.block:last-of-type{border-bottom:none;}
+  .block h2{font-size:clamp(1.8rem,3vw,2.5rem);max-width:640px;line-height:1.1;}
+  .block .lead{font-size:1.02rem;color:var(--ink-soft);max-width:640px;margin-top:16px;line-height:1.6;}
+
+  /* ---------- two-path cards ---------- */
+  .path-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;margin-top:48px;background:var(--line);border:1px solid var(--line);}
+  .path-card{background:var(--paper-raised);padding:36px 34px;display:flex;flex-direction:column;}
+  .path-card .field-tag{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;}
+  .path-card.green .field-tag{color:var(--green);}
+  .path-card.blue .field-tag{color:var(--blue);}
+  .path-card h3{margin-top:10px;font-size:1.35rem;}
+  .path-card p{margin-top:12px;color:var(--ink-soft);font-size:0.95rem;line-height:1.6;}
+  .path-card ul{margin:18px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;}
+  .path-card li{font-size:0.88rem;color:var(--ink-soft);padding-left:16px;position:relative;}
+  .path-card li::before{content:"—";position:absolute;left:0;color:var(--mono-text);}
+  .path-card .go{margin-top:24px;font-family:'IBM Plex Mono',monospace;font-size:0.85rem;font-weight:600;}
+  .path-card.green .go{color:var(--green);}
+  .path-card.blue .go{color:var(--blue);}
+  .path-card.blue{border-left:1px solid var(--line);}
+
+  /* ---------- sequence / cycle strip (reusable for both verticals) ---------- */
+  .cycle{display:grid;gap:0;margin-top:52px;border:1px solid var(--line);border-radius:2px;overflow:hidden;}
+  .cycle.c6{grid-template-columns:repeat(6,1fr);}
+  .cycle.c5{grid-template-columns:repeat(5,1fr);}
+  .cycle-step{padding:22px 18px;border-right:1px solid var(--line);background:var(--paper-raised);position:relative;}
+  .cycle-step:last-child{border-right:none;}
+  .cycle-step .cnum{font-family:'IBM Plex Mono',monospace;color:var(--green);font-size:0.78rem;font-weight:600;}
+  .cycle.blue .cycle-step .cnum{color:var(--blue);}
+  .cycle-step h4{font-family:'Zilla Slab',serif;font-size:0.95rem;margin-top:8px;line-height:1.25;font-weight:600;}
+  .cycle-step p{font-size:0.78rem;color:var(--mono-text);margin-top:8px;line-height:1.45;}
+
+  /* ---------- diff grid ---------- */
+  .diff-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;margin-top:48px;background:var(--line);border:1px solid var(--line);}
+  .diff-card{background:var(--paper-raised);padding:32px 30px;}
+  .diff-card h3{font-size:1.12rem;line-height:1.3;}
+  .diff-card p{margin-top:10px;font-size:0.92rem;color:var(--ink-soft);line-height:1.55;}
+
+  /* ---------- cta banner ---------- */
+  .cta-banner{background:var(--ink);color:var(--paper);padding:64px 0;}
+  .cta-banner .wrap{display:flex;justify-content:space-between;align-items:center;gap:32px;flex-wrap:wrap;}
+  .cta-banner h2{color:#fff;font-size:clamp(1.6rem,2.6vw,2.1rem);max-width:520px;line-height:1.15;}
+  .cta-banner .btn-primary{border-color:#fff;}
+
+  /* ---------- service rows ---------- */
+  .service-list{margin-top:50px;display:flex;flex-direction:column;}
+  .service-row{display:grid;grid-template-columns:200px 1fr;gap:32px;padding:30px 0;border-top:1px solid var(--line);}
+  .service-row:last-child{border-bottom:1px solid var(--line);}
+  .service-row .field-tag{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;letter-spacing:0.08em;color:var(--green);text-transform:uppercase;}
+  .service-row.blue .field-tag{color:var(--blue);}
+  .service-row h3{margin-top:8px;font-size:1.2rem;}
+  .service-row p{margin-top:10px;color:var(--ink-soft);font-size:0.94rem;line-height:1.6;max-width:560px;}
+
+  .addon-box{margin-top:40px;padding:28px 30px;border:1px solid var(--green);background:var(--green-dim);border-radius:2px;display:flex;justify-content:space-between;gap:24px;align-items:flex-start;flex-wrap:wrap;}
+  .addon-box.blue{border-color:var(--blue);background:var(--blue-dim);}
+  .addon-box .field-tag{color:var(--green);font-family:'IBM Plex Mono',monospace;font-size:0.72rem;letter-spacing:0.08em;text-transform:uppercase;}
+  .addon-box.blue .field-tag{color:var(--blue);}
+  .addon-box h3{margin-top:6px;font-size:1.1rem;}
+  .addon-box p{margin-top:8px;color:var(--ink-soft);font-size:0.92rem;max-width:520px;line-height:1.5;}
+
+  /* ---------- about page ---------- */
+  .about-hero{padding:78px 0 60px;border-bottom:1px solid var(--line);}
+  .about-hero h1{font-size:clamp(2.1rem,3.8vw,3rem);max-width:720px;line-height:1.12;}
+  .about-hero .sub{margin-top:20px;font-size:1.05rem;color:var(--ink-soft);max-width:680px;line-height:1.65;}
+
+  .lesson-list{margin-top:40px;}
+  .lesson{display:grid;grid-template-columns:44px 1fr;gap:20px;padding:22px 0;border-top:1px solid var(--line-soft);}
+  .lesson:last-child{border-bottom:1px solid var(--line-soft);}
+  .lesson .mark{font-family:'IBM Plex Mono',monospace;color:var(--green);font-weight:600;}
+  .lesson h4{font-size:1.02rem;}
+  .lesson p{margin-top:6px;font-size:0.9rem;color:var(--ink-soft);line-height:1.55;}
+
+  .founder-card{margin-top:48px;display:grid;grid-template-columns:180px 1fr;gap:32px;border:1px solid var(--line);border-radius:2px;padding:30px;background:var(--paper-raised);}
+  .founder-avatar{width:100%;aspect-ratio:1;background:var(--ink);border-radius:2px;display:flex;align-items:center;justify-content:center;font-family:'Zilla Slab',serif;color:var(--paper);font-size:2rem;font-weight:700;}
+  .founder-card h3{font-size:1.15rem;}
+  .founder-card .role{font-family:'IBM Plex Mono',monospace;font-size:0.75rem;color:var(--green);margin-top:4px;letter-spacing:0.04em;}
+  .founder-card p{margin-top:12px;font-size:0.92rem;color:var(--ink-soft);line-height:1.6;}
+
+  .info-cols{display:grid;grid-template-columns:repeat(2,1fr);gap:40px;margin-top:44px;}
+  .info-col h4{font-family:'IBM Plex Mono',monospace;font-size:0.75rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--mono-text);}
+  .info-col p{margin-top:10px;font-size:0.95rem;color:var(--ink-soft);line-height:1.6;}
+
+  /* ---------- contact page ---------- */
+  .contact-grid{display:grid;grid-template-columns:1fr 0.8fr;gap:60px;margin-top:48px;align-items:start;}
+  form.contact-form{display:flex;flex-direction:column;gap:18px;}
+  .form-row{display:flex;flex-direction:column;gap:6px;}
+  .form-row.two{display:grid;grid-template-columns:1fr 1fr;gap:18px;}
+  label{font-family:'IBM Plex Mono',monospace;font-size:0.72rem;text-transform:uppercase;letter-spacing:0.08em;color:var(--mono-text);}
+  input, textarea, select{
+    font-family:'IBM Plex Sans',sans-serif;font-size:0.96rem;
+    padding:12px 14px;border:1px solid var(--line);border-radius:2px;
+    background:var(--paper-raised);color:var(--ink);
+  }
+  input:focus, textarea:focus, select:focus{outline:2px solid var(--green);outline-offset:1px;border-color:var(--green);}
+  textarea{resize:vertical;min-height:110px;}
+  .submit-btn{margin-top:6px;align-self:flex-start;}
+  .contact-side{border:1px solid var(--line);border-radius:2px;padding:30px;background:var(--paper-raised);}
+  .contact-side h3{font-size:1.05rem;}
+  .contact-side .cline{margin-top:20px;padding-top:16px;border-top:1px solid var(--line-soft);}
+  .contact-side .cline:first-of-type{border-top:none;padding-top:0;}
+  .contact-side .clabel{font-family:'IBM Plex Mono',monospace;font-size:0.7rem;color:var(--mono-text);text-transform:uppercase;letter-spacing:0.06em;}
+  .contact-side .cval{margin-top:5px;font-size:0.95rem;}
+  .form-note{margin-top:10px;font-size:0.82rem;color:var(--mono-text);}
+  #form-success{display:none;margin-top:20px;padding:16px 18px;background:var(--green-dim);border:1px solid var(--green);border-radius:2px;font-size:0.9rem;color:var(--green);}
+
+  /* ---------- footer ---------- */
+  footer{padding:48px 0 40px;border-top:1px solid var(--line);}
+  .footer-inner{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:24px;}
+  footer .wordmark{font-size:1.1rem;}
+  footer .tagline{margin-top:6px;font-size:0.85rem;color:var(--mono-text);max-width:300px;}
+  footer nav{display:flex;gap:22px;flex-wrap:wrap;}
+  footer nav a{font-size:0.88rem;color:var(--ink-soft);}
+  footer nav a:hover{color:var(--ink);}
+  .footer-bottom{margin-top:36px;padding-top:20px;border-top:1px solid var(--line-soft);font-family:'IBM Plex Mono',monospace;font-size:0.72rem;color:var(--mono-text);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+
+  /* ---------- responsive ---------- */
+  @media (max-width:920px){
+    .hero-grid{grid-template-columns:1fr;gap:44px;}
+    .cycle.c6{grid-template-columns:repeat(3,1fr);}
+    .cycle.c5{grid-template-columns:repeat(3,1fr);}
+    .cycle-step{border-bottom:1px solid var(--line);}
+    .diff-grid{grid-template-columns:1fr;}
+    .path-grid{grid-template-columns:1fr;}
+    .path-card.blue{border-left:none;border-top:1px solid var(--line);}
+    .stat-strip .wrap{grid-template-columns:1fr;gap:22px;}
+    .stat{border-left:none;border-top:1px solid var(--line-soft);padding:18px 0 0;}
+    .stat:first-child{border-top:none;padding-top:0;}
+    .founder-card{grid-template-columns:1fr;}
+    .founder-avatar{max-width:120px;}
+    .contact-grid{grid-template-columns:1fr;}
+    .info-cols{grid-template-columns:1fr;}
+    nav.links{display:none;position:absolute;top:100%;left:0;right:0;background:var(--paper);flex-direction:column;padding:16px 28px 24px;border-bottom:1px solid var(--line);gap:16px;align-items:flex-start;}
+    nav.links.open{display:flex;}
+    .nav-toggle{display:block;}
+    .service-row{grid-template-columns:1fr;gap:8px;}
+  }
+  @media (max-width:600px){
+    .cycle.c6, .cycle.c5{grid-template-columns:1fr 1fr;}
+    .cycle-step:nth-child(odd){border-right:1px solid var(--line);}
+    .cycle-step:nth-child(2n){border-right:none;}
+    .form-row.two{grid-template-columns:1fr;}
+    .cta-banner .wrap{flex-direction:column;align-items:flex-start;}
+  }
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    .page.active{animation:none;}
+  }
+</style>
+</head>
+<body>
+
+<header class="site-nav">
+  <div class="nav-inner">
+    <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" class="wordmark" onclick="showPage(&#39;home&#39;);return false;">AllshoreCX <span class="tick">✓ BPO</span></a>
+    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector(&#39;nav.links&#39;).classList.toggle(&#39;open&#39;)">☰</button>
+    <nav class="links">
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" data-page="home" onclick="showPage(&#39;home&#39;);return false;" class="active">Home</a>
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" data-page="billing" onclick="showPage(&#39;billing&#39;);return false;" class="">Medical Billing</a>
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" data-page="accounting" onclick="showPage(&#39;accounting&#39;);return false;" class="">Accounting</a>
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" data-page="about" onclick="showPage(&#39;about&#39;);return false;" class="">About</a>
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" data-page="contact" onclick="showPage(&#39;contact&#39;);return false;" class="">Contact</a>
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" class="nav-cta" onclick="showPage(&#39;contact&#39;);return false;">Book a discovery call</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HOME ============ -->
+  <div class="page active" id="page-home">
+
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="field-label"><span class="num">01</span> Back-office outsourcing · built for U.S. businesses</div>
+          <h1>Two back-office lines.<br>One accountable floor.</h1>
+          <p class="sub">AllshoreCX runs U.S. medical billing and full-cycle accounting from a 24/7 team built on years of contact-center discipline — every claim, every ledger line, and every shift tracked and QA-scored.</p>
+          <div class="hero-ctas">
+            <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" class="btn-primary" onclick="showPage(&#39;contact&#39;);return false;">Book a discovery call</a>
+            <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" class="btn-secondary" onclick="showPage(&#39;billing&#39;);return false;">See what we handle</a>
+          </div>
+        </div>
+        <div>
+          <div class="ticket-tabs">
+            <button class="ticket-tab active" id="tab-billing" onclick="toggleTicket(&#39;billing&#39;)">Medical billing</button>
+            <button class="ticket-tab" id="tab-accounting" onclick="toggleTicket(&#39;accounting&#39;)">Accounting</button>
+          </div>
+          <div class="ticket">
+            <div class="ticket-perf"></div>
+
+            <div class="ticket-panel active" id="panel-billing">
+              <div class="ticket-top">
+                <div>
+                  <div class="t-label">Claim status</div>
+                  <div style="font-family:&#39;IBM Plex Mono&#39;,monospace;font-size:0.85rem;margin-top:4px;">#AX-10492</div>
+                </div>
+                <div class="stamp">CLEAN CLAIM</div>
+              </div>
+              <div class="ticket-body">
+                <div class="tline"><span class="k">First-pass submission</span><span class="v green">Same day</span></div>
+                <div class="tline"><span class="k">Denial triage window</span><span class="v green">&lt; 24 hrs</span></div>
+                <div class="tline"><span class="k">Coverage</span><span class="v">24 / 7, every U.S. time zone</span></div>
+                <div class="tline"><span class="k">Reporting</span><span class="v">Denial rate · A/R aging · yield</span></div>
+                <div class="tline"><span class="k">QA scoring</span><span class="v green">On every account</span></div>
+              </div>
+            </div>
+
+            <div class="ticket-panel" id="panel-accounting">
+              <div class="ticket-top">
+                <div>
+                  <div class="t-label">Ledger status</div>
+                  <div style="font-family:&#39;IBM Plex Mono&#39;,monospace;font-size:0.85rem;margin-top:4px;">#LG-30871</div>
+                </div>
+                <div class="stamp blue">BOOKS BALANCED</div>
+              </div>
+              <div class="ticket-body">
+                <div class="tline"><span class="k">Books closed</span><span class="v blue">Monthly, on schedule</span></div>
+                <div class="tline"><span class="k">Payroll runs</span><span class="v blue">On time, every cycle</span></div>
+                <div class="tline"><span class="k">Coverage</span><span class="v">24 / 7, every U.S. time zone</span></div>
+                <div class="tline"><span class="k">Reporting</span><span class="v">P&amp;L · balance sheet · cash flow</span></div>
+                <div class="tline"><span class="k">QA scoring</span><span class="v blue">On every account</span></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stat-strip">
+      <div class="wrap">
+        <div class="stat">
+          <div class="num">24/7</div>
+          <div class="desc">Live coverage timed to land squarely inside the U.S. business day, not tacked on after hours.</div>
+        </div>
+        <div class="stat">
+          <div class="num">99+</div>
+          <div class="desc">Trained seats already running 24/7 operations on the floor behind AllshoreCX.</div>
+        </div>
+        <div class="stat">
+          <div class="num">100%</div>
+          <div class="desc">Of work is shift-logged and QA-scored — nothing runs untracked, nothing goes unseen.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="wrap">
+        <div class="field-label"><span class="num">02</span> Two lines, one floor</div>
+        <h2>Pick the line that's costing you the most time.</h2>
+        <p class="lead">Both run on the same shift-tracked, QA-scored operation. You can start with one and add the other later — nothing changes about how the floor works.</p>
+
+        <div class="path-grid">
+          <div class="path-card green">
+            <span class="field-tag">Field 01</span>
+            <h3>Medical Billing &amp; RCM</h3>
+            <p>Claims, coding, denials and patient A/R — for healthcare practices and the billing companies that serve them.</p>
+            <ul>
+              <li>Clean-claim scrubbing before submission</li>
+              <li>Denial management &amp; appeals</li>
+              <li>Payment posting &amp; reconciliation</li>
+            </ul>
+            <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" class="go" onclick="showPage(&#39;billing&#39;);return false;">Explore medical billing →</a>
+          </div>
+          <div class="path-card blue">
+            <span class="field-tag">Field 02</span>
+            <h3>Accounting &amp; Bookkeeping</h3>
+            <p>Bookkeeping, payroll, tax prep support and reporting — for small and mid-size businesses that want clean books without the overhead.</p>
+            <ul>
+              <li>Daily bookkeeping &amp; reconciliation</li>
+              <li>Payroll processing, every cycle</li>
+              <li>Monthly financial reporting</li>
+            </ul>
+            <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" class="go" onclick="showPage(&#39;accounting&#39;);return false;">Explore accounting →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="wrap">
+        <div class="field-label"><span class="num">03</span> Why AllshoreCX</div>
+        <h2>Back-office work run with the same discipline as a dispatch floor.</h2>
+        <p class="lead">Most offshore outsourcing outfits compete on price and hope the quality holds. We built our operation the other way around: prove the floor discipline first, then offer the price.</p>
+
+        <div class="diff-grid">
+          <div class="diff-card">
+            <h3>Real shift discipline</h3>
+            <p>QA scoring, attendance tracking and floor supervision — proven for years running 24/7 dispatch operations before a single claim or ledger line was touched here.</p>
+          </div>
+          <div class="diff-card">
+            <h3>Time-zone-true coverage</h3>
+            <p>Our evening hours land inside the U.S. business day. Claims move, books close and calls get answered while your day is still open.</p>
+          </div>
+          <div class="diff-card">
+            <h3>Transparent reporting</h3>
+            <p>You see denial rates, A/R aging, payroll cycles and financial statements on a standing report — not a black box you have to trust blindly.</p>
+          </div>
+          <div class="diff-card">
+            <h3>Priced to move your margin</h3>
+            <p>An offshore cost base without the offshore guesswork. You get the savings and the accountability, not one at the expense of the other.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="wrap">
+        <h2>Your back office, minus the turnover.</h2>
+        <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" class="btn-primary" onclick="showPage(&#39;contact&#39;);return false;">Book a discovery call</a>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ============ MEDICAL BILLING ============ -->
+  <div class="page" id="page-billing">
+
+    <section class="about-hero">
+      <div class="wrap">
+        <div class="field-label"><span class="num">01</span> Medical billing &amp; RCM</div>
+        <h1>Every stage of the claim, covered.</h1>
+        <p class="sub">For healthcare practices and the billing companies that serve them. Pick a single stage that's leaking, or hand us the whole cycle — the same QA-scored, shift-tracked team is behind it.</p>
+      </div>
+    </section>
+
+    <section class="block" style="padding-top:56px;">
+      <div class="wrap">
+        <div class="field-label"><span class="num">02</span> How the claim moves</div>
+        <div class="cycle c6">
+          <div class="cycle-step">
+            <div class="cnum">01</div>
+            <h4>Eligibility &amp; benefits</h4>
+            <p>Coverage, copays and authorizations confirmed before the patient sits down.</p>
+          </div>
+          <div class="cycle-step">
+            <div class="cnum">02</div>
+            <h4>Coding &amp; charge entry</h4>
+            <p>Charges coded against current payer rules the same day service is rendered.</p>
+          </div>
+          <div class="cycle-step">
+            <div class="cnum">03</div>
+            <h4>Claims submission</h4>
+            <p>Every claim scrubbed against payer edits before it leaves the building.</p>
+          </div>
+          <div class="cycle-step">
+            <div class="cnum">04</div>
+            <h4>Payment posting</h4>
+            <p>ERAs and manual payments reconciled daily against what was actually paid.</p>
+          </div>
+          <div class="cycle-step">
+            <div class="cnum">05</div>
+            <h4>Denial management</h4>
+            <p>Denials triaged within 24 hours, corrected, and re-filed or appealed.</p>
+          </div>
+          <div class="cycle-step">
+            <div class="cnum">06</div>
+            <h4>Patient A/R</h4>
+            <p>Balances followed up on and explained clearly — collections without friction.</p>
+          </div>
+        </div>
+
+        <div class="service-list">
+          <div class="service-row">
+            <div><span class="field-tag">Field 01</span></div>
+            <div>
+              <h3>Eligibility &amp; Benefits Verification</h3>
+              <p>We confirm coverage, copays, deductibles and prior authorizations before the patient is ever seen — so claims don't come back on a technicality that was checkable on day one.</p>
+            </div>
+          </div>
+          <div class="service-row">
+            <div><span class="field-tag">Field 02</span></div>
+            <div>
+              <h3>Medical Coding &amp; Charge Entry</h3>
+              <p>Charges are coded and entered against current payer rules the same day service is rendered, closing the lag between the visit and the claim.</p>
+            </div>
+          </div>
+          <div class="service-row">
+            <div><span class="field-tag">Field 03</span></div>
+            <div>
+              <h3>Claims Submission &amp; Scrubbing</h3>
+              <p>Every claim is scrubbed against payer edits before it leaves the building, so first-pass acceptance goes up and avoidable rejections stop eating your week.</p>
+            </div>
+          </div>
+          <div class="service-row">
+            <div><span class="field-tag">Field 04</span></div>
+            <div>
+              <h3>Payment Posting &amp; Reconciliation</h3>
+              <p>ERAs and manual payments are posted and reconciled daily, so your ledger reflects what's actually been paid — not what should have been paid.</p>
+            </div>
+          </div>
+          <div class="service-row">
+            <div><span class="field-tag">Field 05</span></div>
+            <div>
+              <h3>Denial Management &amp; Appeals</h3>
+              <p>Denials are triaged within 24 hours, corrected at the root cause, and re-filed or appealed — not left sitting in a queue until they age out.</p>
+            </div>
+          </div>
+          <div class="service-row">
+            <div><span class="field-tag">Field 06</span></div>
+            <div>
+              <h3>Patient A/R &amp; Statement Support</h3>
+              <p>Patient balances are followed up on and explained in plain language, protecting collections without turning it into a fight with your patients.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="addon-box">
+          <div>
+            <span class="field-tag">Standing on every account</span>
+            <h3>Reporting &amp; quality assurance</h3>
+            <p>Every account gets a QA-scored quality pass and a standing report covering denial rate, days in A/R, and first-pass yield — the same discipline we use to run 24/7 dispatch floors.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="wrap">
+        <h2>Tell us where your billing is leaking.<br>We'll show you the fix.</h2>
+        <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" class="btn-primary" onclick="showPage(&#39;contact&#39;);return false;">Book a discovery call</a>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ============ ACCOUNTING ============ -->
+  <div class="page" id="page-accounting">
+
+    <section class="about-hero">
+      <div class="wrap">
+        <div class="field-label blue"><span class="num">01</span> Accounting &amp; bookkeeping</div>
+        <h1>Full accounting, run like a floor.</h1>
+        <p class="sub">Bookkeeping, payroll, tax prep support and reporting for small and mid-size businesses that want U.S.-grade accounting without U.S.-size overhead.</p>
+      </div>
+    </section>
+
+    <section class="block" style="padding-top:56px;">
+      <div class="wrap">
+        <div class="field-label blue"><span class="num">02</span> How the books move</div>
+        <div class="cycle c5 blue">
+          <div class="cycle-step">
+            <div class="cnum">01</div>
+            <h4>Bookkeeping &amp; reconciliation</h4>
+            <p>Transactions categorized daily and reconciled against bank and card statements.</p>
+          </div>
+          <div class="cycle-step">
+            <div class="cnum">02</div>
+            <h4>Accounts payable &amp; receivable</h4>
+            <p>Bills paid on schedule and invoices followed up on, so cash flow isn't a guess.</p>
+          </div>
+          <div class="cycle-step">
+            <div class="cnum">03</div>
+            <h4>Payroll processing</h4>
+            <p>Payroll run on time, every cycle, with clean recordkeeping behind it.</p>
+          </div>
+          <div class="cycle-step">
+            <div class="cnum">04</div>
+            <h4>Reporting</h4>
+            <p>P&amp;L, balance sheet and cash flow delivered on a fixed monthly schedule.</p>
+          </div>
+          <div class="cycle-step">
+            <div class="cnum">05</div>
+            <h4>Tax prep support</h4>
+            <p>Books kept tax-ready year-round, prepared in step with your CPA.</p>
+          </div>
+        </div>
+
+        <div class="service-list">
+          <div class="service-row blue">
+            <div><span class="field-tag">Field 01</span></div>
+            <div>
+              <h3>Bookkeeping &amp; Reconciliation</h3>
+              <p>Daily transaction categorization and bank/credit card reconciliation, so your books are clean and current — not a quarter-end scramble.</p>
+            </div>
+          </div>
+          <div class="service-row blue">
+            <div><span class="field-tag">Field 02</span></div>
+            <div>
+              <h3>Accounts Payable &amp; Receivable</h3>
+              <p>Vendor bills tracked and paid on schedule, invoices sent and followed up on, so cash flow doesn't depend on someone remembering.</p>
+            </div>
+          </div>
+          <div class="service-row blue">
+            <div><span class="field-tag">Field 03</span></div>
+            <div>
+              <h3>Payroll Processing</h3>
+              <p>Payroll run on time, every time, with the recordkeeping to back it up — no missed cycles, no manual scramble at the deadline.</p>
+            </div>
+          </div>
+          <div class="service-row blue">
+            <div><span class="field-tag">Field 04</span></div>
+            <div>
+              <h3>Financial Reporting</h3>
+              <p>Monthly P&amp;L, balance sheet and cash flow reports delivered on a fixed schedule, so owners get a clear read on the business without chasing a bookkeeper.</p>
+            </div>
+          </div>
+          <div class="service-row blue">
+            <div><span class="field-tag">Field 05</span></div>
+            <div>
+              <h3>Tax Preparation Support</h3>
+              <p>Books kept tax-ready year-round and prepared in partnership with your CPA or tax preparer, so tax season isn't a fire drill.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="addon-box blue">
+          <div>
+            <span class="field-tag">Standing on every account</span>
+            <h3>Reporting &amp; quality assurance</h3>
+            <p>Every account gets a QA-scored quality pass and a standing reporting cadence — the same discipline we use to run 24/7 dispatch floors.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="wrap">
+        <h2>Tell us what your books look like right now.<br>We'll show you the fix.</h2>
+        <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" class="btn-primary blue" onclick="showPage(&#39;contact&#39;);return false;">Book a discovery call</a>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <div class="page" id="page-about">
+
+    <section class="about-hero">
+      <div class="wrap">
+        <div class="field-label"><span class="num">01</span> Who's behind the work</div>
+        <h1>Built on a floor that already runs 24/7.</h1>
+        <p class="sub">AllshoreCX comes out of CabCall Experts, a 24/7 dispatch and contact centre operation running shift coverage for UK taxi and private hire operators. Long before AllshoreCX existed, that team was already tracking every shift, scoring every call, and closing out every rota. We're pointing the same discipline at U.S. medical billing and accounting back-office work.</p>
+      </div>
+    </section>
+
+    <section class="block" style="padding-top:56px;">
+      <div class="wrap">
+        <div class="field-label"><span class="num">02</span> What running a floor for years teaches you</div>
+        <h2>Discipline that transfers directly to back-office work.</h2>
+
+        <div class="lesson-list">
+          <div class="lesson">
+            <span class="mark">→</span>
+            <div>
+              <h4>Nothing moves without a record</h4>
+              <p>Every shift, every call and every exception is logged. That same habit is what keeps a denial — or an unreconciled transaction — from sitting untouched for weeks.</p>
+            </div>
+          </div>
+          <div class="lesson">
+            <span class="mark">→</span>
+            <div>
+              <h4>Quality is scored, not assumed</h4>
+              <p>Calls, claims and books all get audited against a scorecard. Good work is visible, and so is the work that needs fixing — before a client has to find it first.</p>
+            </div>
+          </div>
+          <div class="lesson">
+            <span class="mark">→</span>
+            <div>
+              <h4>Coverage means coverage</h4>
+              <p>Running rotas across a 99-seat floor means someone is always on, always accountable, and always handing off cleanly to the next shift — whether that's a claim or a ledger.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="wrap">
+        <div class="field-label"><span class="num">03</span> Leadership</div>
+        <div class="founder-card">
+          <div class="founder-avatar">R</div>
+          <div>
+            <h3>Ray</h3>
+            <div class="role">Founder &amp; CEO</div>
+            <p>Ray built CabCall Experts into a 24/7, ~99-seat dispatch and contact centre operation serving UK taxi and private hire clients, including the internal QA, rota and performance systems that keep the floor accountable shift over shift. AllshoreCX is Ray's move to bring that same operational backbone to U.S. medical billing and accounting.</p>
+          </div>
+        </div>
+
+        <div class="info-cols">
+          <div class="info-col">
+            <h4>Where we work from</h4>
+            <p>Islamabad, Pakistan — with live coverage timed to land inside the U.S. business day, roughly 9am–12pm ET and beyond, so your team never has to wait until tomorrow for an answer.</p>
+          </div>
+          <div class="info-col">
+            <h4>How we handle data</h4>
+            <p>Billing, payroll and financial data are handled under strict access controls and documented handling procedures, with our team continuing to align processes to U.S. compliance standards as we grow.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="wrap">
+        <h2>Come see the floor.<br>We'll walk you through exactly how we run.</h2>
+        <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" class="btn-primary" onclick="showPage(&#39;contact&#39;);return false;">Book a discovery call</a>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- ============ CONTACT ============ -->
+  <div class="page" id="page-contact">
+
+    <section class="about-hero" style="border-bottom:none;padding-bottom:0;">
+      <div class="wrap">
+        <div class="field-label"><span class="num">01</span> Get in touch</div>
+        <h1>Let's look at your back office together.</h1>
+        <p class="sub">Tell us a little about your practice, billing company, or business. We'll come back with specific questions, not a generic pitch — and we reply within one business day.</p>
+      </div>
+    </section>
+
+    <section class="block" style="border-bottom:none;padding-top:32px;">
+      <div class="wrap contact-grid">
+        <form class="contact-form" onsubmit="handleSubmit(event)">
+          <div class="form-row two">
+            <div class="form-row">
+              <label for="name">Full name</label>
+              <input id="name" type="text" required="" placeholder="Jordan Blake">
+            </div>
+            <div class="form-row">
+              <label for="practice">Company / organization</label>
+              <input id="practice" type="text" required="" placeholder="Blake Family Medicine">
+            </div>
+          </div>
+          <div class="form-row two">
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" type="email" required="" placeholder="jordan@company.com">
+            </div>
+            <div class="form-row">
+              <label for="phone">Phone</label>
+              <input id="phone" type="tel" placeholder="(555) 555-0128">
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="service">What do you need help with?</label>
+            <select id="service">
+              <option value="">Select a service</option>
+              <option>Medical Billing &amp; RCM</option>
+              <option>Accounting &amp; Bookkeeping</option>
+              <option>Both</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="message">What's going on right now?</label>
+            <textarea id="message" placeholder="e.g. denial rates are climbing, our books are behind, we&#39;re evaluating outsourcing for the first time..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary submit-btn">Request a discovery call</button>
+          <div id="form-success">Thanks — that's logged. We'll follow up within one business day to schedule a time.</div>
+        </form>
+
+        <div class="contact-side">
+          <h3>Direct contact</h3>
+          <div class="cline">
+            <div class="clabel">Email</div>
+            <div class="cval">hello@allshorecx.com</div>
+          </div>
+          <div class="cline">
+            <div class="clabel">Response time</div>
+            <div class="cval">Within one business day</div>
+          </div>
+          <div class="cline">
+            <div class="clabel">Coverage window</div>
+            <div class="cval">Live 24/7 — decision-makers reachable 9am–12pm ET</div>
+          </div>
+          <div class="cline">
+            <div class="clabel">Based in</div>
+            <div class="cval">Islamabad, Pakistan</div>
+          </div>
+          <p class="form-note">Prefer to talk first? Mention it in your message and we'll send a scheduling link for a 20-minute discovery call.</p>
+        </div>
+      </div>
+    </section>
+
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap footer-inner">
+    <div>
+      <div class="wordmark">AllshoreCX <span class="tick">✓ BPO</span></div>
+      <div class="tagline">U.S. medical billing and accounting outsourcing, run with dispatch-floor discipline.</div>
+    </div>
+    <nav>
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" onclick="showPage(&#39;home&#39;);return false;">Home</a>
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" onclick="showPage(&#39;billing&#39;);return false;">Medical Billing</a>
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" onclick="showPage(&#39;accounting&#39;);return false;">Accounting</a>
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" onclick="showPage(&#39;about&#39;);return false;">About</a>
+      <a href="file:///C:/Users/fahad/AppData/Local/Packages/5319275A.WhatsAppDesktop_cv1g1gvanyjgm/LocalState/sessions/1C38A2C3854A0202A412155A5039E450217C7DD2/transfers/2026-33/allshorecx-website%20(1).html#" onclick="showPage(&#39;contact&#39;);return false;">Contact</a>
+    </nav>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 AllshoreCX</span>
+    <span>Islamabad, Pakistan</span>
+  </div>
+</footer>
+
+<script>
+  function showPage(name){
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById('page-' + name).classList.add('active');
+    document.querySelectorAll('nav.links a[data-page]').forEach(a => {
+      a.classList.toggle('active', a.dataset.page === name);
+    });
+    document.querySelector('nav.links').classList.remove('open');
+    window.scrollTo({top:0, behavior:'instant' in window ? 'instant' : 'auto'});
+  }
+  function toggleTicket(which){
+    document.querySelectorAll('.ticket-tab').forEach(t => t.classList.remove('active'));
+    document.getElementById('tab-' + which).classList.add('active');
+    document.querySelectorAll('.ticket-panel').forEach(p => p.classList.remove('active'));
+    document.getElementById('panel-' + which).classList.add('active');
+  }
+  function handleSubmit(e){
+    e.preventDefault();
+    document.getElementById('form-success').style.display = 'block';
+    e.target.querySelector('.submit-btn').textContent = 'Request sent';
+    e.target.querySelector('.submit-btn').disabled = true;
+  }
+  showPage('home');
+</script>
+
+
+
+</body></html>
