@@ -1,0 +1,229 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AllshoreCX | Managed Global Teams for US Businesses</title><meta name="description" content="Build dedicated offshore teams for healthcare, dental, insurance, finance and customer operations with AllshoreCX."><style>:root{
+  --ink:#0b1720;
+  --ink-2:#112833;
+  --paper:#f7f4ed;
+  --paper-2:#fffdf8;
+  --muted:#68757b;
+  --line:rgba(11,23,32,.12);
+  --aqua:#73f2cf;
+  --aqua-2:#b5ffe9;
+  --amber:#f6b85b;
+  --violet:#b9a8ff;
+  --white:#ffffff;
+  --shadow:0 18px 70px rgba(8,20,28,.10);
+  --radius:26px;
+  --max:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+button,input,select,textarea{font:inherit}
+img,svg{display:block;max-width:100%}
+.container{width:min(calc(100% - 40px),var(--max));margin:auto}
+.eyebrow{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800;color:#47616c}
+.kicker{display:inline-flex;align-items:center;gap:10px;padding:8px 12px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.55);font-size:.84rem;font-weight:700}
+.kicker:before{content:"";width:8px;height:8px;border-radius:50%;background:var(--aqua);box-shadow:0 0 0 5px rgba(115,242,207,.15)}
+.section{padding:92px 0}
+.section.tight{padding:68px 0}
+.section-head{display:grid;grid-template-columns:1.1fr .9fr;gap:42px;align-items:end;margin-bottom:44px}
+.section-head h2{font-size:clamp(2.15rem,5vw,4.4rem);line-height:.98;letter-spacing:-.055em;margin:10px 0 0;max-width:760px}
+.section-head p{margin:0;font-size:1.06rem;color:var(--muted);max-width:570px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;padding:14px 20px;border:1px solid transparent;font-weight:800;transition:.25s ease;cursor:pointer}
+.btn.primary{background:var(--ink);color:var(--white);box-shadow:0 10px 30px rgba(11,23,32,.17)}
+.btn.primary:hover{transform:translateY(-2px);background:#142b37}
+.btn.ghost{border-color:var(--line);background:rgba(255,255,255,.66)}
+.btn.ghost:hover{background:#fff;transform:translateY(-2px)}
+.btn.light{background:#fff;color:var(--ink)}
+.btn.aqua{background:var(--aqua);color:#06251d}
+.arrow{font-size:1.1em}
+.nav-wrap{position:sticky;top:0;z-index:50;padding:16px 0;transition:.25s ease}
+.nav-wrap.scrolled{background:rgba(247,244,237,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:-.03em;font-size:1.22rem}
+.brand-mark{width:34px;height:34px;border-radius:10px;background:var(--ink);position:relative;overflow:hidden}
+.brand-mark:before,.brand-mark:after{content:"";position:absolute;border-radius:999px}
+.brand-mark:before{width:29px;height:10px;background:var(--aqua);transform:rotate(-42deg);left:-1px;top:5px}
+.brand-mark:after{width:28px;height:10px;background:var(--amber);transform:rotate(-42deg);right:-5px;bottom:3px}
+.nav-links{display:flex;align-items:center;gap:26px;font-size:.94rem;font-weight:700;color:#30414a}
+.nav-links a:hover{color:#000}
+.nav-actions{display:flex;gap:10px}
+.menu-btn{display:none;background:none;border:0;font-size:1.45rem}
+.hero{padding:34px 0 80px}
+.hero-shell{position:relative;overflow:hidden;background:var(--ink);color:#f7fffc;border-radius:38px;min-height:700px;padding:70px;display:grid;grid-template-columns:1.02fr .98fr;gap:58px;align-items:center;box-shadow:var(--shadow)}
+.hero-shell:before{content:"";position:absolute;width:480px;height:480px;border-radius:50%;right:-150px;top:-170px;background:radial-gradient(circle at 35% 35%,rgba(115,242,207,.38),rgba(115,242,207,0) 68%)}
+.hero-shell:after{content:"";position:absolute;width:560px;height:560px;border-radius:50%;left:24%;bottom:-430px;background:radial-gradient(circle,rgba(185,168,255,.28),rgba(185,168,255,0) 72%)}
+.hero-copy,.team-architect{position:relative;z-index:2}
+.hero h1{font-size:clamp(3.3rem,6.5vw,6.7rem);line-height:.88;letter-spacing:-.075em;margin:19px 0 26px;max-width:730px}
+.hero h1 span{color:var(--aqua)}
+.hero p.lead{font-size:clamp(1.06rem,2vw,1.25rem);color:#bdd0d7;max-width:630px;margin:0 0 32px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-note{display:flex;gap:18px;flex-wrap:wrap;margin-top:34px;color:#9fb3bb;font-size:.87rem}
+.hero-note span{display:flex;align-items:center;gap:8px}
+.hero-note span:before{content:"✓";width:19px;height:19px;border:1px solid rgba(255,255,255,.2);border-radius:50%;display:grid;place-items:center;color:var(--aqua);font-size:.72rem}
+.team-architect{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.13);backdrop-filter:blur(16px);border-radius:30px;padding:24px;box-shadow:0 25px 80px rgba(0,0,0,.18)}
+.arch-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:22px}
+.arch-title{font-weight:850;font-size:1.08rem}
+.status{font-size:.74rem;text-transform:uppercase;letter-spacing:.12em;color:#8ddcc7;display:flex;align-items:center;gap:8px}
+.status:before{content:"";width:7px;height:7px;border-radius:50%;background:var(--aqua);box-shadow:0 0 0 5px rgba(115,242,207,.1)}
+.arch-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.field-card{padding:15px;border-radius:18px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.09)}
+.field-card label{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:#8fa7b0;display:block;margin-bottom:7px}
+.field-card select,.field-card input{width:100%;background:transparent;color:white;border:0;outline:0;font-weight:750;appearance:none}
+.field-card select option{color:#111}
+.role-list{margin-top:12px;display:grid;gap:9px}
+.role{display:flex;align-items:center;justify-content:space-between;padding:14px 15px;border-radius:16px;background:#fff;color:var(--ink);transition:.25s ease}
+.role:hover{transform:translateX(4px)}
+.role small{color:var(--muted)}
+.role-icon{width:34px;height:34px;border-radius:12px;background:var(--paper);display:grid;place-items:center;font-weight:900}
+.arch-foot{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-top:14px;padding-top:15px;border-top:1px solid rgba(255,255,255,.12)}
+.arch-foot small{color:#9db0b7}
+.marquee{overflow:hidden;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:rgba(255,255,255,.38)}
+.marquee-track{display:flex;gap:46px;width:max-content;padding:17px 0;animation:scroll 22s linear infinite;font-weight:800;color:#4a5b63;white-space:nowrap}
+.marquee-track span{display:flex;align-items:center;gap:10px}
+.marquee-track span:before{content:"•";color:var(--amber)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+.industry-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.industry-card{position:relative;overflow:hidden;min-height:300px;border-radius:var(--radius);padding:28px;background:var(--paper-2);border:1px solid var(--line);transition:.28s ease}
+.industry-card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}
+.industry-card h3{font-size:1.6rem;letter-spacing:-.035em;margin:20px 0 12px}
+.industry-card p{color:var(--muted);max-width:410px;margin:0 0 24px}
+.industry-card .chip{display:inline-flex;border-radius:999px;padding:7px 10px;background:#eef6f3;font-size:.76rem;font-weight:800;color:#31534b}
+.industry-card .corner{position:absolute;right:-24px;bottom:-26px;width:135px;height:135px;border-radius:38px;transform:rotate(16deg);opacity:.72}
+.industry-card.medical{grid-column:span 7;background:linear-gradient(145deg,#fffdf8,#edf9f6)}
+.industry-card.medical .corner{background:var(--aqua)}
+.industry-card.dental{grid-column:span 5;background:linear-gradient(145deg,#fffdf8,#f1eefc)}
+.industry-card.dental .corner{background:var(--violet)}
+.industry-card.insurance{grid-column:span 4}
+.industry-card.insurance .corner{background:var(--amber)}
+.industry-card.finance{grid-column:span 4}
+.industry-card.finance .corner{background:#d6e3ff}
+.industry-card.cx{grid-column:span 4}
+.industry-card.cx .corner{background:#ffd7ce}
+.card-link{font-weight:850;font-size:.92rem;display:inline-flex;gap:8px;align-items:center}
+.workflow{background:#0e2029;color:white;border-radius:34px;padding:58px;position:relative;overflow:hidden}
+.workflow:before{content:"";position:absolute;inset:auto -120px -220px auto;width:460px;height:460px;border-radius:50%;background:radial-gradient(circle,rgba(115,242,207,.18),transparent 68%)}
+.workflow-head{display:flex;justify-content:space-between;gap:34px;align-items:flex-end;margin-bottom:40px;position:relative}
+.workflow-head h2{font-size:clamp(2.3rem,4.7vw,4.4rem);line-height:.95;letter-spacing:-.055em;margin:0;max-width:680px}
+.workflow-head p{color:#aac0c8;max-width:430px;margin:0}
+.flow-line{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;position:relative}
+.flow-step{padding:21px;border-radius:20px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.1);min-height:185px;position:relative}
+.flow-step .num{width:34px;height:34px;border-radius:50%;background:var(--aqua);color:#07241c;display:grid;place-items:center;font-weight:900;margin-bottom:34px}
+.flow-step h4{margin:0 0 8px;font-size:1.08rem}
+.flow-step p{margin:0;color:#9eb3bb;font-size:.9rem}
+.flow-step:not(:last-child):after{content:"→";position:absolute;right:-11px;top:47%;z-index:3;width:22px;height:22px;border-radius:50%;background:#17303b;display:grid;place-items:center;color:var(--aqua);font-size:.8rem}
+.bento{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.bento-card{border-radius:var(--radius);background:var(--paper-2);border:1px solid var(--line);padding:28px;min-height:230px;position:relative;overflow:hidden}
+.bento-card h3{font-size:1.55rem;margin:0 0 12px;letter-spacing:-.035em}
+.bento-card p{color:var(--muted);margin:0;max-width:510px}
+.bento-card.large{grid-column:span 7;min-height:360px;background:linear-gradient(145deg,#fffdf8,#ecf8f4)}
+.bento-card.medium{grid-column:span 5;min-height:360px;background:#10242e;color:white}
+.bento-card.medium p{color:#a8bdc5}
+.bento-card.small{grid-column:span 4}
+.metricless{position:absolute;left:28px;right:28px;bottom:28px;display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.pulse-card{padding:14px;border-radius:16px;background:rgba(255,255,255,.7);border:1px solid var(--line)}
+.pulse-card strong{display:block;font-size:1.05rem}
+.pulse-card small{color:var(--muted)}
+.security-orbit{position:absolute;right:-70px;bottom:-80px;width:270px;height:270px;border:1px solid rgba(255,255,255,.15);border-radius:50%}
+.security-orbit:before,.security-orbit:after{content:"";position:absolute;border-radius:50%;border:1px solid rgba(255,255,255,.15)}
+.security-orbit:before{inset:36px}.security-orbit:after{inset:78px;background:radial-gradient(circle,var(--aqua),rgba(115,242,207,.12) 35%,transparent 70%)}
+.role-cloud{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+.role-cloud span{border:1px solid var(--line);border-radius:999px;padding:9px 11px;background:#fff;font-size:.82rem;font-weight:750}
+.quote-block{padding:70px;border-radius:34px;background:#f1eadf;display:grid;grid-template-columns:.8fr 1.2fr;gap:60px;align-items:center}
+.quote-mark{width:70px;height:70px;border-radius:24px;background:var(--amber);display:grid;place-items:center;font-size:3rem;font-family:Georgia,serif}
+.quote-block blockquote{margin:0;font-size:clamp(1.8rem,4vw,3.8rem);line-height:1.05;letter-spacing:-.045em;font-weight:750}
+.quote-block p{color:var(--muted);margin:20px 0 0}
+.cta-band{padding:70px;border-radius:34px;background:linear-gradient(125deg,var(--ink),#173946);color:white;display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center;position:relative;overflow:hidden}
+.cta-band:after{content:"";position:absolute;right:10%;top:-150px;width:350px;height:350px;border-radius:50%;background:radial-gradient(circle,rgba(115,242,207,.2),transparent 68%)}
+.cta-band h2{font-size:clamp(2.3rem,5vw,4.8rem);line-height:.92;letter-spacing:-.06em;margin:0;max-width:740px;position:relative;z-index:1}
+.cta-band p{color:#b7c9cf;max-width:650px;position:relative;z-index:1}
+.cta-actions{display:flex;gap:10px;position:relative;z-index:1}
+footer{padding:68px 0 35px}
+.footer-top{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:40px;padding-bottom:40px;border-bottom:1px solid var(--line)}
+.footer-brand p{max-width:360px;color:var(--muted)}
+.footer-col h4{font-size:.8rem;text-transform:uppercase;letter-spacing:.13em;margin:0 0 16px;color:#59707a}
+.footer-col a{display:block;margin:10px 0;color:#344750;font-size:.93rem}
+.footer-bottom{display:flex;justify-content:space-between;gap:20px;padding-top:24px;color:#68777d;font-size:.85rem}
+/* inner pages */
+.inner-hero{padding:38px 0 72px}
+.inner-shell{border-radius:36px;padding:70px;background:var(--paper-2);border:1px solid var(--line);display:grid;grid-template-columns:1.05fr .95fr;gap:50px;align-items:center;overflow:hidden;position:relative}
+.inner-shell h1{font-size:clamp(3rem,6vw,6rem);line-height:.9;letter-spacing:-.07em;margin:14px 0 24px}
+.inner-shell p{font-size:1.1rem;color:var(--muted);max-width:640px}
+.visual-stack{display:grid;gap:12px;transform:rotate(-2deg)}
+.visual-row{padding:18px 20px;border-radius:20px;background:var(--ink);color:white;display:flex;justify-content:space-between;align-items:center;box-shadow:0 12px 40px rgba(11,23,32,.12)}
+.visual-row:nth-child(2){margin-left:36px;background:#173b48}.visual-row:nth-child(3){margin-left:10px;background:#255f67}.visual-row small{color:#b8c8cd}
+.service-list{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.service-item{background:var(--paper-2);border:1px solid var(--line);border-radius:20px;padding:24px;min-height:195px}
+.service-item .icon{width:42px;height:42px;border-radius:14px;background:#e8f7f2;display:grid;place-items:center;margin-bottom:28px}
+.service-item h3{margin:0 0 9px;letter-spacing:-.02em}
+.service-item p{margin:0;color:var(--muted);font-size:.92rem}
+.platform-grid{display:flex;gap:10px;flex-wrap:wrap}
+.platform-grid span{padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--paper-2);font-weight:800;color:#3d515a}
+.form-shell{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;background:var(--paper-2);border:1px solid var(--line);border-radius:34px;padding:54px}
+.form-shell h1{font-size:clamp(2.6rem,5vw,5rem);line-height:.94;letter-spacing:-.06em;margin:10px 0 20px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.form-grid .full{grid-column:1/-1}
+.input{display:flex;flex-direction:column;gap:7px}
+.input label{font-size:.8rem;font-weight:800;color:#445860}
+.input input,.input select,.input textarea{border:1px solid var(--line);background:#fff;border-radius:14px;padding:13px 14px;outline:0}
+.input input:focus,.input select:focus,.input textarea:focus{border-color:#4f8f80;box-shadow:0 0 0 4px rgba(115,242,207,.18)}
+.faq{display:grid;gap:10px}
+.faq details{background:var(--paper-2);border:1px solid var(--line);border-radius:18px;padding:18px 20px}
+.faq summary{font-weight:850;cursor:pointer}
+.faq p{color:var(--muted);margin-bottom:3px}
+@media(max-width:980px){
+ .nav-links{display:none}.menu-btn{display:block}.nav-actions .ghost{display:none}
+ .hero-shell,.inner-shell,.form-shell{grid-template-columns:1fr;padding:42px}.hero-shell{min-height:auto}
+ .hero h1{font-size:clamp(3.2rem,11vw,5.7rem)}
+ .section-head{grid-template-columns:1fr}.industry-card.medical,.industry-card.dental{grid-column:span 6}.industry-card.insurance,.industry-card.finance,.industry-card.cx{grid-column:span 4}
+ .flow-line{grid-template-columns:1fr 1fr}.flow-step:nth-child(2):after{display:none}
+ .bento-card.large,.bento-card.medium{grid-column:span 12}.bento-card.small{grid-column:span 6}
+ .quote-block{grid-template-columns:1fr;gap:30px;padding:48px}.cta-band{grid-template-columns:1fr}.footer-top{grid-template-columns:1fr 1fr}
+ .service-list{grid-template-columns:1fr 1fr}
+}
+@media(max-width:680px){
+ .container{width:min(calc(100% - 24px),var(--max))}.nav-wrap{padding:10px 0}.nav-actions .primary{display:none}
+ .hero{padding-top:18px}.hero-shell,.inner-shell{padding:28px;border-radius:26px}.hero h1{font-size:clamp(3rem,15vw,4.7rem)}
+ .arch-grid{grid-template-columns:1fr}.section{padding:68px 0}.section-head h2{font-size:2.7rem}.industry-grid{grid-template-columns:1fr}.industry-card.medical,.industry-card.dental,.industry-card.insurance,.industry-card.finance,.industry-card.cx{grid-column:auto;min-height:260px}
+ .workflow{padding:28px;border-radius:26px}.workflow-head{display:block}.workflow-head p{margin-top:18px}.flow-line{grid-template-columns:1fr}.flow-step:after{display:none!important}
+ .bento{grid-template-columns:1fr}.bento-card.large,.bento-card.medium,.bento-card.small{grid-column:auto}.metricless{position:static;margin-top:30px;grid-template-columns:1fr}
+ .quote-block{padding:30px}.cta-band{padding:34px}.cta-actions{flex-direction:column;align-items:stretch}.footer-top{grid-template-columns:1fr}.footer-bottom{flex-direction:column}
+ .service-list{grid-template-columns:1fr}.form-shell{padding:28px}.form-grid{grid-template-columns:1fr}.form-grid .full{grid-column:auto}
+}
+</style></head><body>
+<div class="nav-wrap"><div class="container nav"><a class="brand" href="index.html"><span class="brand-mark"></span>AllshoreCX</a><div class="nav-links"><a href="#industries">Industries</a><a href="#model">How it works</a><a href="security.html">Security</a><a href="about.html">Company</a></div><div class="nav-actions"><a class="btn ghost" href="contact.html">Talk to us</a><a class="btn primary" href="contact.html">Design my team <span class="arrow">→</span></a><button class="menu-btn" aria-label="Open menu">☰</button></div></div></div>
+<main>
+<section class="hero"><div class="container"><div class="hero-shell"><div class="hero-copy"><span class="kicker" style="color:#d8ece7;border-color:rgba(255,255,255,.14);background:rgba(255,255,255,.06)">Managed offshore operations</span><h1>Build an operating team that <span>moves with you.</span></h1><p class="lead">Dedicated specialists for healthcare, dental, insurance, finance and customer operations — recruited, employed and supported by AllshoreCX.</p><div class="hero-actions"><a class="btn aqua" href="contact.html">Design my team <span class="arrow">→</span></a><a class="btn light" href="#industries">Explore capabilities</a></div><div class="hero-note"><span>Start with one specialist</span><span>Client-selected candidates</span><span>Managed delivery environment</span></div></div>
+<div class="team-architect"><div class="arch-head"><div class="arch-title">Team Architect</div><div class="status">Live configuration</div></div><div class="arch-grid"><div class="field-card"><label>Industry</label><select id="industry"><option>Healthcare</option><option>Dental</option><option>Insurance</option><option>Finance</option><option>Customer Experience</option></select></div><div class="field-card"><label>Team size</label><select><option>1 specialist</option><option>2–5 specialists</option><option>6–10 specialists</option><option>11–25 specialists</option></select></div></div><div class="role-list"><div class="role" id="role1"><div><strong class="role-name">Medical Billing Specialist</strong><br><small>Dedicated role</small></div><div class="role-icon">01</div></div><div class="role" id="role2"><div><strong class="role-name">Insurance Verification</strong><br><small>Dedicated role</small></div><div class="role-icon">02</div></div><div class="role" id="role3"><div><strong class="role-name">Patient Scheduling</strong><br><small>Dedicated role</small></div><div class="role-icon">03</div></div></div><div class="arch-foot"><small>Configure around your hours, systems and workflow.</small><a class="btn aqua" href="contact.html">Build this team</a></div></div></div></div></section>
+<div class="marquee"><div class="marquee-track"><span>Medical billing</span><span>Patient scheduling</span><span>Dental insurance</span><span>Policy operations</span><span>Bookkeeping</span><span>Customer support</span><span>Revenue cycle</span><span>Back office</span><span>Medical billing</span><span>Patient scheduling</span><span>Dental insurance</span><span>Policy operations</span><span>Bookkeeping</span><span>Customer support</span><span>Revenue cycle</span><span>Back office</span></div></div>
+<section class="section" id="industries"><div class="container"><div class="section-head"><div><div class="eyebrow">Capabilities</div><h2>Specialists for the work your core team shouldn't be buried in.</h2></div><p>Choose a function, not a generic virtual assistant. We recruit around role requirements, systems, working hours and the way your operation actually runs.</p></div><div class="industry-grid">
+<a class="industry-card medical" href="healthcare.html"><span class="chip">Healthcare</span><h3>Revenue cycle & patient operations</h3><p>Billing, eligibility, prior authorization, A/R, patient scheduling, claims follow-up and administrative support.</p><span class="card-link">Explore healthcare <span>→</span></span><span class="corner"></span></a>
+<a class="industry-card dental" href="dental.html"><span class="chip">Dental</span><h3>Front desk to collections</h3><p>Dental billing, insurance verification, scheduling, pre-authorization, recall and claims support.</p><span class="card-link">Explore dental <span>→</span></span><span class="corner"></span></a>
+<a class="industry-card insurance" href="insurance.html"><span class="chip">Insurance</span><h3>Agency operations</h3><p>Policy servicing, renewals, COIs, carrier portals, claims support and customer operations.</p><span class="card-link">Explore insurance →</span><span class="corner"></span></a>
+<a class="industry-card finance" href="finance.html"><span class="chip">Finance</span><h3>Accounting support</h3><p>Bookkeeping, AP/AR, reconciliations, invoicing, payroll administration and reporting support.</p><span class="card-link">Explore finance →</span><span class="corner"></span></a>
+<a class="industry-card cx" href="cx.html"><span class="chip">Customer Experience</span><h3>Customer operations</h3><p>Calls, appointment scheduling, email, chat, dispatch support and back-office administration.</p><span class="card-link">Explore CX →</span><span class="corner"></span></a>
+</div></div></section>
+<section class="section tight" id="model"><div class="container"><div class="workflow"><div class="workflow-head"><h2>You keep control. We run the infrastructure behind the team.</h2><p>A practical operating model for businesses that want dedicated offshore capacity without setting up an overseas entity, office or HR function.</p></div><div class="flow-line"><div class="flow-step"><div class="num">1</div><h4>Define the role</h4><p>Responsibilities, hours, systems, experience and reporting lines.</p></div><div class="flow-step"><div class="num">2</div><h4>Meet candidates</h4><p>We shortlist. You interview and choose who joins your operation.</p></div><div class="flow-step"><div class="num">3</div><h4>Integrate</h4><p>Onboard to your tools, processes, security requirements and team cadence.</p></div><div class="flow-step"><div class="num">4</div><h4>Scale deliberately</h4><p>Add roles, shifts, quality support and management layers as demand grows.</p></div></div></div></div></section>
+<section class="section"><div class="container"><div class="section-head"><div><div class="eyebrow">Operating layer</div><h2>More than hiring. Less than building another company.</h2></div><p>AllshoreCX sits between your business and the complexity of offshore employment, facilities and daily support.</p></div><div class="bento"><div class="bento-card large"><h3>One delivery layer around every role.</h3><p>Recruitment, employment, payroll, workspace, equipment coordination, attendance support and day-to-day operational escalation — structured around the needs of your account.</p><div class="metricless"><div class="pulse-card"><strong>Recruit</strong><small>Role-led sourcing</small></div><div class="pulse-card"><strong>Operate</strong><small>Managed environment</small></div><div class="pulse-card"><strong>Expand</strong><small>Teams that can scale</small></div></div></div><div class="bento-card medium"><h3>Security starts with access design.</h3><p>For regulated workflows, we align user access, device controls and client-specific procedures before work begins. We only publish certifications we can substantiate.</p><a class="btn light" style="margin-top:24px" href="security.html">Review security approach</a><div class="security-orbit"></div></div><div class="bento-card small"><h3>Built around your software.</h3><p>Candidate experience and training can be aligned to the platforms your team already uses.</p><div class="role-cloud"><span>athenahealth</span><span>eClinicalWorks</span><span>QuickBooks</span><span>Dentrix</span></div></div><div class="bento-card small"><h3>Your hours. Your cadence.</h3><p>US business hours, extended coverage or shift-based operations — designed around the actual workflow.</p></div><div class="bento-card small"><h3>One specialist or a whole function.</h3><p>Start small and add headcount, QA, supervision or workforce support as the operation matures.</p></div></div></div></section>
+<section class="section tight"><div class="container"><div class="quote-block"><div><div class="quote-mark">”</div><div class="eyebrow" style="margin-top:18px">Our point of view</div></div><div><blockquote>Offshore should feel like an operating advantage — not a separate world your managers have to chase.</blockquote><p>That principle shapes how AllshoreCX recruits, supports and scales dedicated teams.</p></div></div></div></section>
+<section class="section"><div class="container"><div class="cta-band"><div><h2>Design the team your operation needs next.</h2><p>Tell us the role, workflow and team size. We'll help you shape the right offshore model around it.</p></div><div class="cta-actions"><a class="btn aqua" href="contact.html">Start a conversation →</a></div></div></div></section>
+</main>
+<footer><div class="container"><div class="footer-top"><div class="footer-brand"><a class="brand" href="index.html"><span class="brand-mark"></span>AllshoreCX</a><p>Managed global teams for healthcare, dental, insurance, finance and customer operations.</p></div><div class="footer-col"><h4>Industries</h4><a href="healthcare.html">Healthcare</a><a href="dental.html">Dental</a><a href="insurance.html">Insurance</a><a href="finance.html">Finance</a><a href="cx.html">Customer Experience</a></div><div class="footer-col"><h4>Company</h4><a href="about.html">About</a><a href="security.html">Security</a><a href="contact.html">Contact</a></div><div class="footer-col"><h4>Start</h4><a href="contact.html">Design my team</a><a href="contact.html">Book a consultation</a></div></div><div class="footer-bottom"><span>© 2026 AllshoreCX. All rights reserved.</span><span>Privacy · Terms · Cookies</span></div></div></footer>
+<script>const nav=document.querySelector('.nav-wrap');
+window.addEventListener('scroll',()=>nav&&nav.classList.toggle('scrolled',window.scrollY>18));
+
+const industry=document.querySelector('#industry');
+const role1=document.querySelector('#role1 .role-name');
+const role2=document.querySelector('#role2 .role-name');
+const role3=document.querySelector('#role3 .role-name');
+const roleMap={
+  Healthcare:['Medical Billing Specialist','Insurance Verification','Patient Scheduling'],
+  Dental:['Dental Billing Specialist','Insurance Coordinator','Patient Recall'],
+  Insurance:['Policy Operations Specialist','Claims Support','Customer Service'],
+  Finance:['Bookkeeper','Accounts Receivable','Accounts Payable'],
+  'Customer Experience':['Customer Support','Appointment Scheduling','Back Office Support']
+};
+if(industry){industry.addEventListener('change',()=>{const r=roleMap[industry.value]||roleMap.Healthcare;[role1,role2,role3].forEach((el,i)=>{if(el)el.textContent=r[i]})})}
+
+document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener('click',e=>{const t=document.querySelector(a.getAttribute('href'));if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth'})}}));
+</script></body></html>
