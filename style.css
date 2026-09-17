@@ -34,7 +34,7 @@ img{max-width:100%;display:block}
 .nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:24px}
 .logo{display:flex;align-items:center;font-weight:800;font-size:22px;color:var(--navy);letter-spacing:-.03em}
 .logo-tile{display:inline-grid;place-items:center;margin-left:4px;background:var(--teal);color:white;width:34px;height:34px;border-radius:9px;font-size:15px;letter-spacing:0}
-.logo-img{height:32px;width:auto;display:block}
+.logo-img{height:38px;width:auto;display:block}
 .nav-links{display:flex;align-items:center;gap:24px;color:#344054;font-size:14px;font-weight:600}
 .nav-links a:hover{color:var(--teal-dark)}
 .btn{
